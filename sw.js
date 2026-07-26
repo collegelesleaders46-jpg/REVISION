@@ -1,4 +1,4 @@
-const CACHE_NAME = 'revision-l3-hors-ligne-v19-comptes-de-18-juillet-2026';
+const CACHE_NAME = 'revision-l3-hors-ligne-v20-comptes-26-juillet-2026';
 const APP_FILES = [
   './',
   './index.html',
