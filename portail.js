@@ -51,6 +51,8 @@
   if (session) showChooser(session); else showLogin();
 
   if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
-    navigator.serviceWorker.register('sw.js').catch(() => {});
+    navigator.serviceWorker.register('sw.js?v=20260810-session-unique')
+      .then(registration => registration.update())
+      .catch(() => {});
   }
 })();
